@@ -1,0 +1,126 @@
+<head>
+    <%- partial('plugins/google-analytics') %>
+    <%- partial('plugins/tajs') %>
+    <%- partial('plugins/baidu') %>
+    <meta charset="utf-8">
+    <% if(theme.google_site_verification){ %>
+    <meta name="google-site-verification" content="<%- theme.google_site_verification%>">
+    <% }%>
+    <% if(theme.canonical){ %>
+    <link rel="canonical" href="<%- (theme.canonical + url_for(page.path)).replace(/index\.html$/, '') %>">
+    <% }%>
+    <%
+        var title = page.title;
+
+        if (is_archive()){
+            title = theme.archives_title || 'Archives';
+
+            if (is_month()){
+            title += ': ' + page.year + '/' + page.month;
+            } else if (is_year()){
+            title += ': ' + page.year;
+            }
+        } else if (is_category()){
+            title = (theme.categories_title || 'Categories') + ': ' + page.category;
+        } else if (is_tag()){
+            title = (theme.tags_title || 'Tags') + ': ' + page.tag;
+        }
+    %>
+    <title><% if (title){ %><%= title %> | <% } %><%= config.title %><% if (config.subtitle){ %> | <%= config.subtitle %><% } %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <% if(theme.color){ %>
+    <meta name="theme-color" content="<%=theme.color%>">
+    <% } %>
+    <%
+        var keyWords = config.keywords;
+        if(page.tags){
+        keyWords = [];
+
+        _.isArray(page.tags) ? ( keyWords = page.tags )
+            : page.tags.each(function(k){
+                keyWords.push(k.name);
+            });
+    }
+    %>
+    <meta name="keywords" content="<%= keyWords %>">
+    <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+    <% if ((config.feed) && (config.feed.path.length)) { %>
+        <link rel="alternate" type="application/atom+xml" title="<%= config.title %>" href="<%- url_for(config.feed.path) %>">
+    <% } %>
+    <%- favicon_tag(theme.favicon) %>
+    <link rel="stylesheet" href="<%- url_for(theme_css('/css/style', cache)) %>">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    <% if (site.data.head) { %>
+        <% for (var i in site.data.head) { %>
+            <%- site.data.head[i] %>
+        <% } %>
+    <% } %>
+<!-- highlight.js代码高亮主题 css 引入-->
+  <link rel="stylesheet" href="/plugins/highlight/styles/atom-one-light.css">
+  <!-- highlight.js代码高亮主题 css 引入-->
+<style>
+  //代码块复制按钮
+.hljs{
+  //方便copy代码按钮（btn-copy）的定位
+  position: relative;
+}
+.btn-copy {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc,#eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    padding: 2px 6px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    opacity: 0;
+}
+.btn-copy span {
+    margin-left: 5px;
+}
+.hljs less:hover .btn-copy{
+  opacity: 1;
+}
+code.has-numbering {
+  margin-left: 10px;
+  word-wrap: normal;
+  word-break: keep-all;
+  white-space: pre;
+}
+
+.pre-numbering {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  padding: .5em 0.2em .5em 0;
+  border-right: 1px solid #C3CCD0;
+  border-radius: 3px 0 0 3px;
+  background-color: #EEE;
+  text-align: right;
+  font-size: 1.0em;
+  color: #AAA;
+  list-style: none;
+}
+</style>
+</head>
+<!-- highlight.js代码高亮主题 css 引入-->
+<!--   <link rel="stylesheet" href="/plugins/highlight/styles/magula.css"> -->
+<!-- highlight.js代码高亮主题 css 引入-->
