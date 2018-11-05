@@ -24,6 +24,7 @@
 <% } %>
 <%- js('js/search.js') %>
 <%- js('js/app.js') %>
+<%- js('js/zoomify.min.js') %>
 
 <% if (page.comments) { %>
     <% if (config.disqus_shortname){ %>
@@ -79,3 +80,9 @@
         <% } %>
     <% } %>
 <% } %>
+<script>
+$(function() {
+	$('img').zoomify('reposition');
+	$('img').zoomify();
+});
+</script>
