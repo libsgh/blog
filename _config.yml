@@ -95,15 +95,10 @@ nav_menu:
     slug: archives
     icon: fa-archive
     url: /archives
-  - name: 贴吧签到云
+  - name: 项目
     target: _blank
     slug: projects
-    icon: fa-cloud
-    url: http://sign.iicm.tk
-  - name: windows&office
-    target: _blank
-    slug: projects
-    icon: fa-windows
+    icon: fa-bullseye
     url: http://noki.tk
 
 # 右边的小窗口，不想显示哪一项的注释掉对应的即可
