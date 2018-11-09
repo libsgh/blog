@@ -116,7 +116,7 @@ mac_canary
 </response>
 ```
 
-**从xml中科院解析出版本、大小、文件名、下载地址，其中下载地址为<code>codebase</code>+<code>name</code>**
+**从xml中可以解析出版本、大小、文件名、下载地址，其中下载地址为<code>codebase</code>+<code>name</code>**
 
 4. 以java获取示例
 
