@@ -9,9 +9,7 @@ comments: true
 ![](https://ws1.sinaimg.cn/large/6b162853ly1fx1yr4czpfj20go098t8o.jpg)
 <!-- more -->
 
-## 说明
-
-### 为什么要这样做
+### 说明
 
 1. 由于众所周知的原因，我们获取谷歌浏览器会受到一定的阻碍，当浏览器无法更新，或更新速度很慢时，我们需要用到离线包下载地址
 2. 下载<code>70.0.3538.77_chrome_installer.exe</code>包，用解压软件打开即可解压，无须安装
@@ -160,7 +158,7 @@ Api: http://noki.tk/chrome/info
 ### 后续
 [GreenChrome](https://shuax.com/portfolio/greenchrome/)、离线包，这些需要手动下载解压，对于一些电脑盲来说简直是噩梦
 所以就有了自动打包便携Chrome的想法，原理就是，自动获取最新包，解压，文件移动，最终压缩获得zip
-不过由于程序部署在heroku上，下载速度比较慢，后期考虑传到网盘上
+不过由于我的程序部署在heroku上，下载速度比较慢，后期考虑传到网盘上
 
 ### 参考
 
@@ -170,4 +168,4 @@ https://i-meto.com/chrome-binary/
 https://github.com/google/omaha/blob/master/doc/ServerProtocolV3.md
 https://github.com/alick/fzug-repo-web-test/blob/3f0d2cd0691e78d13479c8e67dd791eb5e768a03/api/utils/chrome.py
 
-
+**End~**
