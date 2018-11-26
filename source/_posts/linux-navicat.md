@@ -67,7 +67,7 @@ $ cp navicat.desktop /home/single/Desktop
 1. 之前傻了尝试在虚拟机中,或是win中激活,然后压缩包复制到linux中,发现还是需要重新激活,这种方式行不通,包括网上有一种补丁直接能拦截注册提示窗口的注册方式,在win下面是可以的,但是linux下无效
 2. linux下删除/home/single/.navicat64/system.reg,这样快要到期的时候删除一次,会重新计算,这种方式我没来及尝试,如果可行,可以设置crontab定时删除这个文件,**删除整个.navicat64文件夹会丢失数据库连接信息**
 3. 在激活过程中有什么问题,可以删除<code>RegPrivateKey.pem</code>文件及安装目录下的<code>navicat.exe.backup</code>文件,重新按步骤激活
-4. 成功激活的版本12.0.11,其他版本自行尝试,有问题可以去[](https://github.com/DoubleLabyrinth/navicat-keygen)寻找答案
-5. **推荐**：<code>Navicat_Keygen_Patch_v3.7_By_DFoX_URET</code>，操作更加简便, 杀软误报请加白名单，原贴地址：[](https://dfox.it/DeFconX/files/file/79-navicat-software/)
+4. 成功激活的版本12.0.11,其他版本自行尝试,有问题可以去https://github.com/DoubleLabyrinth/navicat-keygen寻找答案
+5. **推荐**：<code>Navicat_Keygen_Patch_v3.7_By_DFoX_URET</code>，操作更加简便, 杀软误报请加白名单，原贴地址：https://dfox.it/DeFconX/files/file/79-navicat-software
 ![](https://ws1.sinaimg.cn/large/6b162853ly1fs0lkgbxdej20fw0fp0ub.jpg)
 **Enjoy~**
