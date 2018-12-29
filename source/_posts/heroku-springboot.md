@@ -10,7 +10,7 @@ comments: true
 
 ### 前期准备
 
-- [注册 Heroku 账户](https://signup.heroku.com/dc) 需要扶墙
+- [注册 Heroku 账户](https://signup.heroku.com/dc) 使用国外邮箱,需要扶墙
 - [安装Heroku](https://devcenter.heroku.com/articles/heroku-cli) Toolbelt Heroku Command Line Interface (CLI)
 
 <!-- more -->
@@ -60,11 +60,51 @@ $ heroku logs --tail
 $ heroku run bash
 ```
 
-### 设置编码
+### 设置编码和时区
 
 ```bash
 $ heroku config:add LANG=en_US.UTF-8
+$ heroku config:add TZ="Asia/Shanghai"
 ```
+
+### 数据库连接设置
+
+- 添加postgresql
+```bash
+$ heroku addons:create heroku-postgresql
+```
+
+- heroku免费的postgres有限制,10000条记录,但是对于一般测试小功能使用也足够了
+- 添加变量,**数据库配置的key不要改成其他**,注意jdbc连接的格式: `jdbc:postgresql://<host>:<port>/<dbname>?user=<username>&password=<password>`
+![](http://ww1.sinaimg.cn/large/6b162853ly1fynpfo2nobj20re0e6ab6.jpg)
+- 对应配置文件
+```
+spring:
+  datasource:
+    name: PostgreSQL
+    driver-class-name: org.postgresql.Driver
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+```
+- 创建数据源
+```java
+@Bean
+@Primary
+@ConfigurationProperties(prefix = "spring.datasource")
+public DataSource dataSource() throws URISyntaxException{
+	DruidDataSource datasource = new DruidDataSource();
+	datasource.setName(datasourceName);
+	datasource.setUrl(url);
+	datasource.setUsername(username);
+	datasource.setPassword(password);
+	datasource.setDriverClassName(driver);
+    return datasource;
+}
+```
+
+- 使用navicat可以对postgres进行远程管理
+
 
 ### 注意事项
 
