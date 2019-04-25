@@ -13,15 +13,15 @@ Netlify是一个现代网站自动化系统，其JAM架构代表了现代网站�
 ### 注册使用Netlify
 1. 官方首页：https://www.netlify.com/
 2. 注册账号：可以使用Github、Gitlab、Bitbucket授权登陆，然后登录到空间管理中心，点击右上角的“New site from Git”添加网站
-![](https://ws1.sinaimg.cn/large/6b162853ly1fplftfrz6vj20xa0araak.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fplftfrz6vj20xa0araak.jpg)
 3. 使用github托管，选择一个仓库，此仓库存放博客程序
-![](https://ws1.sinaimg.cn/large/6b162853gy1fplg2brzsxj20k00c8q3m.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fplg2brzsxj20k00c8q3m.jpg)
 4. 绑定域名，我这里用dnspod解析，添加CNAME到brave-tereshkova-***.netlify.com
-![](https://ws1.sinaimg.cn/large/6b162853gy1fplgba6evqj20mf013a9y.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fplgba6evqj20mf013a9y.jpg)
 5. https可以一键开启，还可以强制https
-![](https://ws1.sinaimg.cn/large/6b162853gy1fplgaaah1dj20pi0kywfm.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fplgaaah1dj20pi0kywfm.jpg)
 6. Build command中填写部署命令
-![](https://ws1.sinaimg.cn/large/6b162853gy1fplgcgdpc1j20lx0b0dge.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fplgcgdpc1j20lx0b0dge.jpg)
 7. 开源博客程序：https://www.staticgen.com/
 
 ### hexo安装

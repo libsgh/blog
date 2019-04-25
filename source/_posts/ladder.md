@@ -32,7 +32,7 @@ github：https://github.com/shadowsocks
 - 官网：http://www.softether.org/	http://www.vpngate.net/cn/
 - 站点被q，第一次访问你需要fq，可以邮件订阅镜像站点推送
 - 下载 SoftEther VPN Client + VPN Gate Client 插件，如果节点不能使用多换几个试试
-![](https://ws1.sinaimg.cn/large/6b162853gy1fpq1d1uow3j20lt0fkacl.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fpq1d1uow3j20lt0fkacl.jpg)
 
 ## 无界
 
@@ -48,7 +48,7 @@ github：https://github.com/shadowsocks
 
 ## 赛风
 
-![](https://ws1.sinaimg.cn/large/6b162853gy1fpq1rwxp30j2046046dg6.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fpq1rwxp30j2046046dg6.jpg)
 - 优点：简单，好操作，无流量限制。
 - 缺点：速度慢，不稳定，不支持苹果设备，在某些地区遭屏蔽。
 - 可用于：Windows电脑、安卓手机及平板。
@@ -58,7 +58,7 @@ github：https://github.com/shadowsocks
 
 ## 蓝灯
 
-![](https://ws1.sinaimg.cn/large/6b162853gy1fpq1qwrt2uj20460463yr.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853gy1fpq1qwrt2uj20460463yr.jpg)
 - 优点：免费。
 - 缺点：速度慢，不稳定，有流量限制：每月800MB，不支持iPhone、iPad。
 - 可用于：Windows电脑、Mac电脑、安卓手机及平板。
@@ -68,8 +68,8 @@ github：https://github.com/getlantern/forum
 
 ## GoAgent(已死)
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fq7i6l3ucoj20es09qt8r.jpg)
-![](https://ws1.sinaimg.cn/large/6b162853ly1fs1a13kxfcj21bu0433z1.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fq7i6l3ucoj20es09qt8r.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fs1a13kxfcj21bu0433z1.jpg)
 
 ## hosts大法
 
@@ -84,12 +84,12 @@ github：https://github.com/getlantern/forum
 
 ## 富强浏览器-opera
 
-![](https://ws1.sinaimg.cn/thumbnail/6b162853ly1fq7jb3ceguj20sg0sgab5.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fq7jb3ceguj20sg0sgab5.jpg)
 - 官网：https://www.opera.com/zh-cn
 - windows系统设置区域为香港特别行政区，下面以win10为例
-![](https://ws1.sinaimg.cn/large/6b162853ly1fq7i42gljuj20m00dtgm8.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fq7i42gljuj20m00dtgm8.jpg)
 - 设置-隐私安全，开启富强功能
-![](https://ws1.sinaimg.cn/large/6b162853ly1fq7hzmks1aj20so0eemyn.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fq7hzmks1aj20so0eemyn.jpg)
 
 >可能速度稍慢，google查资料还是没问题的
 

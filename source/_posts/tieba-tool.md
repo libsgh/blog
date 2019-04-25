@@ -17,9 +17,9 @@ comments: true
 
 ## 开发调试
 1. 从git下载源码，导入到eclipse
-	![](https://ws1.sinaimg.cn/large/6b162853ly1fsnivdmpl7j20e80ezgm3.jpg)
+	![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fsnivdmpl7j20e80ezgm3.jpg)
 2. 程序启动的入口<code>App.java</code>，资源目录说明
-	![](https://ws1.sinaimg.cn/large/6b162853ly1fsnj3f4hnnj20ap03zmx5.jpg)
+	![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fsnj3f4hnnj20ap03zmx5.jpg)
     
 ## 打包部署
 1. 从码云上直接下载编译好的jar包:[releases](https://gitee.com/iicm/TieBa-Tool/releases)
@@ -130,9 +130,9 @@ home_url: https://sign.iicm.tk
 **参考[spring boot应用启动打包部署](https://iicm.tk/2018/03/22/spring-boot-deploy/)**
 
 ## 站点贴图
-![](https://ws1.sinaimg.cn/large/6b162853ly1fsnk5m6jb9j21ha0q7ahw.jpg)
-![](https://ws1.sinaimg.cn/large/6b162853ly1fsnk6koqebj21h00qagty.jpg)
-![](https://ws1.sinaimg.cn/large/6b162853ly1fsnk8lbqs2j21gu0q8tj7.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fsnk5m6jb9j21ha0q7ahw.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fsnk6koqebj21h00qagty.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fsnk8lbqs2j21gu0q8tj7.jpg)
 
 **相关连接**
 ~~[TieBa-Cloud](https://gitee.com/iicm/TieBa-Cloud)~~

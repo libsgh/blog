@@ -259,6 +259,6 @@ public class TestUnit
 }
 ```
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fw5o0urca4j20vj01ujrc.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fw5o0urca4j20vj01ujrc.jpg)
 
 转自：https://www.cnblogs.com/wggWeb/p/3767111.html

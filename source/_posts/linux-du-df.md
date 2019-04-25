@@ -18,7 +18,7 @@ comments: true
 
 >$ du /home
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnovaaft8j20cl04it8s.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnovaaft8j20cl04it8s.jpg)
 
 - 该命令的输出将显示 <code>home</code> 中的所有文件和目录以及显示块大小。
 
@@ -26,13 +26,13 @@ comments: true
 
 >$ du -h /home
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnovqw89oj20dn04j0st.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnovqw89oj20dn04j0st.jpg)
 
 ### 目录的总磁盘大小
 
 >$ du -sh /home
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnowpiqkyj20g801pmx0.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnowpiqkyj20g801pmx0.jpg)
 
 - 它是<code>/home</code> 目录的总大小
 
@@ -45,13 +45,13 @@ comments: true
 
 >$ df
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnoyh3rruj20hq04d74j.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnoyh3rruj20hq04d74j.jpg)
 
 ### 人类可读格式的信息
 
 >$ df -h
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnoxw9hd1j20ht04574i.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnoxw9hd1j20ht04574i.jpg)
 
 - 上面的命令以人类可读格式显示信息。
 
@@ -59,7 +59,7 @@ comments: true
 
 >$ df -hT /etc在
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fpnoxgb4y0j20hq01q748.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpnoxgb4y0j20hq01q748.jpg)
 
 <code>-hT</code> 加上目标目录将以可读格式显示<code>/etc</code> 的信息。
 

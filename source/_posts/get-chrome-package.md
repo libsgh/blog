@@ -6,7 +6,7 @@ tags:
      - 杂
 comments: true
 ---
-![](https://ws1.sinaimg.cn/large/6b162853ly1fx1yr4czpfj20go098t8o.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fx1yr4czpfj20go098t8o.jpg)
 <!-- more -->
 
 ### 说明
@@ -153,7 +153,7 @@ public class Test {
 根据以上，我们用定时查询，即可获取最新chrome离线包
 http://noki.tk/chrome
 Api: http://noki.tk/chrome/info
-![](https://ws1.sinaimg.cn/large/6b162853ly1fx1zxrcsvmj20y80l4mzr.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fx1zxrcsvmj20y80l4mzr.jpg)
 
 ### 后续
 [GreenChrome](https://shuax.com/portfolio/greenchrome/)、离线包，这些需要手动下载解压，对于一些电脑盲来说简直是噩梦

@@ -63,7 +63,7 @@ public Object importShowidFile (@RequestParam("file") MultipartFile file){
 2. filename使用<code>UTF-8</code>编码可以避免中文文件名乱码问题
 3. 如果不在response中指定<code>content-length</code>字段，下载的excel在office中打开时会有错误提示
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fwclscfkm3j20ki03m3yi.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fwclscfkm3j20ki03m3yi.jpg)
 
 ``` java
 	@RequestMapping(value = { "/c/down/{filename:.+}" }, method = {
@@ -105,7 +105,7 @@ public Object importShowidFile (@RequestParam("file") MultipartFile file){
 >1. 配合<code>fileinput</code>实现pdf、txt、doc等预览
 2. 获取<code>content-type</code>在1.7后添加了方法<code>Files.probeContentType(path)</code>
 
-![](https://ws1.sinaimg.cn/large/6b162853ly1fwcmkdbmodj20mp08xt8t.jpg)
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fwcmkdbmodj20mp08xt8t.jpg)
 
 ```
 function editFileInput(fileName) {
