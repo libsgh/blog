@@ -16,5 +16,10 @@ onedrive-x 是针对 onedrive 网盘的一个开源程序。灵感来源于onein
 onedrive-x相比于oneindex，做了很多细节方面的优化，适合于一键部署到heroku，支持sqlite打造自己的免费网盘。
 Demo：http://pan.noki.tk/
 
+截图：
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/QQ图片20191230173508.png)
+
+github：https://github.com/libsgh/onedrive-x
+
 
 
