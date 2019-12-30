@@ -1,7 +1,7 @@
 ---
-title: v2ray + heroku 实现免费国际穿越（暂时失效）
+title: v2ray + heroku 实现免费国际穿越
 categories: 其他
-date: 2018-7-12 19:31:46
+date: 2019-12-30 17:06:58
 tags: 
      - 杂
 comments: true
@@ -20,7 +20,7 @@ comments: true
 
 ### 一键部署v2ray 到 heroku
 
-1. 首先访问  https://github.com/wangyi2005/v2ray-heroku ，点击<code>Deploy to Heroku</code>
+1. 首先访问  https://github.com/onplus/v2hero ，点击<code>Deploy to Heroku</code>
 ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a48pgqij20qw0dmgmp.jpg)
 2. 部署时配置 v2ray core 的版本、Vmess协议的UUID（"alterId"默认为64）和连接缓存,UUID可以用客户端配置工具生成，这里相当于连接的密钥
 ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a9o5kbij20k90e8dg9.jpg)
@@ -64,7 +64,7 @@ comments: true
 
 heroku官网：https://www.heroku.com/
 v2ray官网：https://www.v2ray.com/
-一键部署脚本：https://github.com/wangyi2005/v2ray-heroku
+一键部署脚本：https://github.com/onplus/v2hero
 客户端：https://www.v2ray.com/ui_client/
 
 **End~**
