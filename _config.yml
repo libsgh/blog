@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.noki.tk
+url: https://blog.noki.icu
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,7 +99,7 @@ nav_menu:
     target: _blank
     slug: projects
     icon: fa-bullseye
-    url: http://noki.tk
+    url: http://noki.icu
 
 # 右边的小窗口，不想显示哪一项的注释掉对应的即可
 widgets:

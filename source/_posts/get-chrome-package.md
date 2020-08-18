@@ -151,8 +151,8 @@ public class Test {
 ### 造一个轮子
 
 根据以上，我们用定时查询，即可获取最新chrome离线包
-http://noki.tk/chrome
-Api: http://noki.tk/chrome/info
+http://noki.icu/chrome
+Api: http://noki.icu/chrome/info
 ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fx1zxrcsvmj20y80l4mzr.jpg)
 
 ### 后续
