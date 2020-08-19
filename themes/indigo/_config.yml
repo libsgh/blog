@@ -33,11 +33,11 @@ menu:
   windows: 
     text: windows&office
     target: _blank
-    url: http://noki.icu
+    url: http://noki.top
   file: 
     text: 我的文件
     target: _blank
-    url: http://pan.noki.icu
+    url: http://pan.noki.top
 
 # 你的头像url
 avatar: /img/avatar.jpg
