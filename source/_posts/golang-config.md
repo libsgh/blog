@@ -6,7 +6,7 @@ tags:
      - go
 comments: true
 ---
-go安装、开发环境配置
+![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/ae757299d8afb757830359579bda077c.png)
 
 <!-- more -->
 
@@ -15,8 +15,7 @@ go安装、开发环境配置
 - 官网：https://golang.google.cn/
 - 中文社区：https://studygolang.com/
 - 全球代理：https://goproxy.io/zh/
-- *Go* module *proxy* in China：https://goproxy.cn/
-- 
+- 中国区代理：https://goproxy.cn/
 
 ### 开发工具
 
@@ -120,7 +119,7 @@ go安装、开发环境配置
 
 ### 使用goland开发go应用
 
-File >> Settings >> Go
+#### File >> Settings >> Go
 
 1. **GOROOT**：go的安装目录，这里会从系统自动读取，也可以单独指定
 
@@ -134,8 +133,8 @@ File >> Settings >> Go
 
    ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/318c9b4445335533927f7ec74701bc83.png)
 
-运行配置
+#### 运行配置
 
-环境变量、传入参数、构建后运行（指定编译后的文件目录）
+环境变量、传入参数、构建后运行（指定构建后的文件目录）等
 
 ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/dd88199dede13311d20511838fde2c52.png)
