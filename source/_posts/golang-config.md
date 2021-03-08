@@ -6,7 +6,7 @@ tags:
      - go
 comments: true
 ---
-<img src="https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/ae757299d8afb757830359579bda077c.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/ae757299d8afb757830359579bda077c.png" style="zoom:50%">
 
 <!-- more -->
 
