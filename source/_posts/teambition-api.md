@@ -77,4 +77,7 @@ public static void main(String[] args) {
 		System.out.println(body);
 	}
 }
+
+跨域测试
+![](https://www.teambition.com/api/works/6049bcf5d3b83500449dd6fe/download/Goose%20house%20-%20%E5%85%89%E3%82%8B%E3%81%AA%E3%82%89.jpg?signature=eyJhbGciOiJIUzI1NiJ9.eyJfd29ya0lkIjoiNjA0OWJjZjVkM2I4MzUwMDQ0OWRkNmZlIiwiZmlsZUtleSI6IjMxMjMzZDI1ODQ3ZTFjMDk3ZTBlOTA4MWZkZDZlYzY2M2JlOSIsIl91c2VySWQiOiI1ZmE0YmI4NDgxZmJhNzE0NjdhYTQ2NzEiLCJleHAiOjE2MTU3MTI2MzYsInN0b3JhZ2UiOiJzdHJpa2VyLWh6In0.ILadZmDl9AMc8rxmHtm74oq_9IEMSye6cCsBn6wfetA&_versionId=6049bcf5d3b83500449dd702)
 ```
