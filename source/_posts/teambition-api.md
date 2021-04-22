@@ -81,3 +81,4 @@ public static void main(String[] args) {
 ```
 跨域测试
 ![](https://pan.noki.top/%e5%8a%9f%e8%83%bd%e6%bc%94%e7%a4%ba/Goose%20house%20-%20%e5%85%89%e3%82%8b%e3%81%aa%e3%82%89.jpg)
+![](http://down.mycq3.com/media/wsbg.jpg)
