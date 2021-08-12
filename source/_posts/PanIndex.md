@@ -28,3 +28,9 @@ comments: true
 ### OneDrive
 
 ![](https://t1.netrss.cf/d_4/e066ef1941c3835588f279d7120e427c117236777_752924808618652_5819014915437716928_n.jpg)
+
+### Video
+
+<video id="video" controls="" preload="none">
+  <source id="mp4" src="https://t1.netrss.cf/d_4/%E5%9C%B0%E7%90%83Online.mp4" type="video/mp4">
+ </video>
