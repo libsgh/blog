@@ -31,6 +31,6 @@ comments: true
 
 ### Video
 
-<video id="video" controls="" preload="none">
+<video id="video" controls="" preload="none" style="width:300px">
   <source id="mp4" src="https://t1.netrss.cf/d_4/%E5%9C%B0%E7%90%83Online.mp4" type="video/mp4">
  </video>
