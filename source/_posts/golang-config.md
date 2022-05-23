@@ -6,7 +6,7 @@ tags:
      - go
 comments: true
 ---
-<img src="https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/ae757299d8afb757830359579bda077c.png" style="zoom:50%">
+<img src="https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/ae757299d8afb757830359579bda077c.png" style="zoom:50%">
 
 <!-- more -->
 
@@ -123,18 +123,18 @@ comments: true
 
 1. **GOROOT**：go的安装目录，这里会从系统自动读取，也可以单独指定
 
-   ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/48fddbee2e7ccf0a6c4d17892ea4f8fc.png)
+   ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/48fddbee2e7ccf0a6c4d17892ea4f8fc.png)
 
 2. **GOPATH**：用来设置个人工作区间对应的目录。里面可以存放编写的代码、编译文件、编译后的可执行文件。
 
-   ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/a98f7e99ddbee2e5f151d06029f089a6.png)
+   ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/a98f7e99ddbee2e5f151d06029f089a6.png)
 
 3. **Go Modules**：开启go modules，并设置`GOPROXY=https://goproxy.io`
 
-   ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/318c9b4445335533927f7ec74701bc83.png)
+   ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/318c9b4445335533927f7ec74701bc83.png)
 
 #### 运行配置
 
 环境变量、传入参数、构建后运行（指定构建后的文件目录）等
 
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/dd88199dede13311d20511838fde2c52.png)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/dd88199dede13311d20511838fde2c52.png)

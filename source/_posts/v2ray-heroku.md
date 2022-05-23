@@ -21,9 +21,9 @@ comments: true
 ### 一键部署v2ray 到 heroku
 
 1. 首先访问  https://github.com/libsgh/v2ray-heroku ，点击<code>Deploy to Heroku</code>
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a48pgqij20qw0dmgmp.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a48pgqij20qw0dmgmp.jpg)
 2. 部署时配置 v2ray core 的版本、Vmess协议的UUID（"alterId"默认为64）和连接缓存,UUID可以用客户端配置工具生成，这里相当于连接的密钥
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a9o5kbij20k90e8dg9.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7a9o5kbij20k90e8dg9.jpg)
 3. 服务端部署后，应 open app ，显示 Bad Request，表示部署成功。
 4. 更新 v2ray 版本，修改 app settings-->Config Vars-->VER，程序自动重启，通过view Logs确认。
 5. 客户端配置 client_config.json, 建议使用 cn_sniproxy+websocket+tls 传输协议。
@@ -39,13 +39,13 @@ comments: true
 ### 客户端配置
 
 1. 注意uuid（**与服务器端配置的Vmess协议的UUID一致**），alterId，传输协议用**ws**,也就是websocket协议
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7alydlsjj20e50cv3yr.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7alydlsjj20e50cv3yr.jpg)
 
 2. tls配置（推荐），注意修改端口
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ftbq2rvh0yj20ii0dijrt.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ftbq2rvh0yj20ii0dijrt.jpg)
 
 3. 手机安装客户端，扫描二维码或是通过url分享导入配置
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7alyfip0j20cq0zk756.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7alyfip0j20cq0zk756.jpg)
 
 4. Ubuntu环境下使用V2ray，参考：https://deng55.github.io/2017/12/04/Ubuntu%E7%8E%AF%E5%A2%83%E4%B8%8B%E4%BD%BF%E7%94%A8V2ray/
 
@@ -54,7 +54,7 @@ comments: true
 1. chrome或firefox配置SwitchyOmega插件
 2. 开启系统代理+pac，基本和ss相同
 3. 如果本地同时开启了ss，可以修改本地监听端口避免冲突
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7awspzewj20ek042746.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft7awspzewj20ek042746.jpg)
 
 ### 测试总结
 

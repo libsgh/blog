@@ -35,7 +35,7 @@ $ sbt
 <code>-Dsbt.ivy.home=D:/sbt-repository</code>
 4. 配置maven仓库
 默认下载包是从中央仓库下载，速度比较慢，可以配置阿里云或是私服地址，执行过sbt之后会在个人目录下生成一个.sbt的文件夹，例如我的在<code>C:\Users\Single\.sbt</code>下新建repositories文件
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3lmqumv8j20k7044jrh.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3lmqumv8j20k7044jrh.jpg)
 > [repositories]
 	local
    maven-local: file:////D:/repository/
@@ -55,17 +55,17 @@ addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")
 
 ### Eclipse安装scala插件
 在Eclipse Marketplace中搜索scala安装，或直接使用[scala-ide](http://scala-ide.org/)
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3lygkqmkj20jp0om403.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3lygkqmkj20jp0om403.jpg)
 
 ### 创建eclipse sbt-scala项目
 1. 在eclipse-workspace中新建文件夹
 2. dos中进入到这个文件夹，输入命令<code>sbt</code>
 3. 在sbt状态下输入<code>eclipse</code>初始化项目
- ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3m9p5oigj20py0ax3yx.jpg)
+ ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3m9p5oigj20py0ax3yx.jpg)
  以及目录结构
- ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3mawlshrj20iv03jglo.jpg)
+ ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3mawlshrj20iv03jglo.jpg)
 4. eclipse中导入刚才创建的项目
- ![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3mccanq3j20du06u0sw.jpg)
+ ![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3mccanq3j20du06u0sw.jpg)
 5. 在项目根目录下创建<code>build.sbt</code>文件,参考示例添加了spark依赖和assembly解决一些冲突,这里基于spark2.2.1，scala2.11，jdk1.8
 
 ```scala
@@ -127,9 +127,9 @@ addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.2.4")
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.7")
 ```
 6. 在项目上右键<code>build path</code>-><code>source</code>-><code>Add Floder</code>,并修改scala版本为2.11
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3nti9xz0j20b10b14ln.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3nti9xz0j20b10b14ln.jpg)
 7. sbt中执行compile，使得项目关联到jar，最终得到的目录结构，类似于maven项目
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3ng7wvmsj209u082glq.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1ft3ng7wvmsj209u082glq.jpg)
 
 ### 编译打包
 <code>sbt clean compile assembly</code>，详细使用参考官方文档：https://github.com/sbt/sbt-assembly

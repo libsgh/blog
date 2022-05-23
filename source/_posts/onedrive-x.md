@@ -8,7 +8,7 @@ tags:
      - onedrive
 comments: true
 ---
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/HTB14LAzS7voK1RjSZFDq6xY3pXaR-300x223.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/HTB14LAzS7voK1RjSZFDq6xY3pXaR-300x223.jpg)
 <!-- more -->
 
 onedrive-x 简介：
@@ -18,7 +18,7 @@ Demo：http://pan.noki.top/
 github：https://github.com/libsgh/onedrive-x
 
 截图：
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/QQ图片20191230173508.png)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/QQ图片20191230173508.png)
 
 
 

@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fx1xgzci3fj20dc078dgu.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fx1xgzci3fj20dc078dgu.jpg)
 <!-- more -->
 
 ### 1. javascript

@@ -212,11 +212,11 @@ journalctl -u myapp
 >以上均可以通过jenkins配置持续集成，下面是一个示例
 
  * 源码管理用gitlab
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzhbefoj213x0o5ta5.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzhbefoj213x0o5ta5.jpg)
  * maven构建
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzp5rjgj213y0g0aaw.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzp5rjgj213y0g0aaw.jpg)
  * 远程部署到服务器
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzukrv7j212w0nmwg1.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fpllzukrv7j212w0nmwg1.jpg)
 
 ## 外部容器
 

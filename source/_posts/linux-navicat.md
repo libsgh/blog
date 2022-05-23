@@ -55,7 +55,7 @@ $ cp navicat.desktop /home/single/Desktop
 > linux破解执行命令前面加上<code>wine</code>
 3. 最后一步需要输入request code(in Base64),这时我们断网直至激活成功,打开navicat,输入上面得到的SnKey,点击激活,会有一个错误提示
 4. 选择手动激活,将步骤2中生成的激活码复制到下面,点激活,出现Navicat现已激活的提示就成功了
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fqrg60cx3nj20fi0ctdgp.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fqrg60cx3nj20fi0ctdgp.jpg)
 
 ### 资源下载
 
@@ -69,5 +69,5 @@ $ cp navicat.desktop /home/single/Desktop
 3. 在激活过程中有什么问题,可以删除<code>RegPrivateKey.pem</code>文件及安装目录下的<code>navicat.exe.backup</code>文件,重新按步骤激活
 4. 成功激活的版本12.0.11,其他版本自行尝试,有问题可以去https://github.com/DoubleLabyrinth/navicat-keygen  寻找答案
 5. **推荐**：<code>Navicat_Keygen_Patch_v3.7_By_DFoX_URET</code>，操作更加简便, 杀软误报请加白名单，原贴地址：https://dfox.it/DeFconX/files/file/79-navicat-software
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fs0lkgbxdej20fw0fp0ub.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fs0lkgbxdej20fw0fp0ub.jpg)
 **Enjoy~**

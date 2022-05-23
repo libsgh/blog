@@ -76,7 +76,7 @@ $ heroku addons:create heroku-postgresql
 
 - heroku免费的postgres有限制,10000条记录,但是对于一般测试小功能使用也足够了
 - 添加变量,**数据库配置的key不要改成其他**,注意jdbc连接的格式: `jdbc:postgresql://<host>:<port>/<dbname>?user=<username>&password=<password>`
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fynpfo2nobj20re0e6ab6.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fynpfo2nobj20re0e6ab6.jpg)
 - 对应配置文件
 ```
 spring:
@@ -108,7 +108,7 @@ public DataSource dataSource() throws URISyntaxException{
 
 ### 注意事项
 
-![](https://cdn.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fw5lt1u95fj20bo0l4wfg.jpg)
+![](https://fastly.jsdelivr.net/gh/libsgh/blog/themes/material-x/source/img/article/6b162853ly1fw5lt1u95fj20bo0l4wfg.jpg)
 
 >1. 30分钟无人访问就休眠（解决办法： https://uptimerobot.com 定时访问你的应用）
 2. 绑定了信用卡之后每个月有1000小时（所有应用加和），普通用户只有550小时（所有应用加和），而一个月有720小时，所以...而且无法自定义域名（解决办法：绑定visa或是mastercard）
